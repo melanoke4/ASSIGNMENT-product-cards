@@ -1,3 +1,28 @@
 body {
     background-color: aliceblue;
+    background-image: url("https://i.pinimg.com/originals/d7/41/b8/d741b8831a6dad105e3c0ab6526869ca.gif");
+     /* * Set the height */
+     height: 400px;
+    /* Create a parallax effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.card-title {
+    border: solid 1px lightblue;
+    justify-content: center;
+
+}
+
+
+img {
+    justify-content: center;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .example {
+        background-attachment: scroll;
+   }
 }
